@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>唐诗宋词苑 · 首页</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand-mark" href="index.html">
+    <span class="brand-seal">诗</span>
+    <span>
+      <span class="brand-title">唐诗宋词苑</span>
+      <span class="brand-sub">赏唐诗宋词 · 品千年风雅</span>
+    </span>
+  </a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="tangshi.html">唐诗</a></li>
+      <li><a href="songci.html">宋词</a></li>
+      <li><a href="about.html">关于</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-eyebrow">唐诗宋词苑</p>
+        <h1>循诗而行，看大唐的豪迈，品两宋的婉转</h1>
+        <p>本站收录唐代、宋代最具代表性的诗人与词人作品，依朝代分为"唐诗"与"宋词"两大栏目。每个栏目均整理了四位名家、多首传世名篇，配以生平简介与创作背景，供课堂学习与课后品读之用。</p>
+        <div class="hero-actions">
+          <a class="btn btn-tang" href="tangshi.html">进入唐诗栏目</a>
+          <a class="btn btn-song" href="songci.html">进入宋词栏目</a>
+        </div>
+      </div>
+      <div class="hero-vertical">唐风宋韵</div>
+    </section>
+
+    <section class="gate-grid">
+      <div class="gate-card tang">
+        <h2>唐诗</h2>
+        <p>盛唐气象恢弘，山河、边塞、送别皆入诗行，读来豪迈开阔，亦不乏深沉忧思。</p>
+        <p class="poet-list">收录诗人：李白 · 杜甫 · 王维 · 白居易</p>
+        <a class="btn btn-tang" href="tangshi.html">查看唐诗栏目</a>
+      </div>
+      <div class="gate-card song">
+        <h2>宋词</h2>
+        <p>两宋词坛婉约与豪放并存，长短句参差错落间，尽显文人心事与家国情怀。</p>
+        <p class="poet-list">收录词人：苏轼 · 李清照 · 辛弃疾 · 柳永</p>
+        <a class="btn btn-song" href="songci.html">查看宋词栏目</a>
+      </div>
+    </section>
+
+    <section class="stats-bar" aria-label="站点数据">
+      <div class="stat-item">
+        <span class="stat-num" data-count="2">0</span>
+        <span class="stat-label">大栏目</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="8">0</span>
+        <span class="stat-label">位名家</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="24">0</span>
+        <span class="stat-label">首名篇</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="1">0</span>
+        <span class="stat-label">键随机读诗</span>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <h2>今日诗笺</h2>
+      <p>每日一诗，随日期自动轮换，在卷轴前稍作停留，便得片刻诗意。</p>
+    </section>
+    <div class="featured-quote">
+      <span class="fq-seal">今日</span>
+      <p class="fq-label"></p>
+      <p class="fq-text"></p>
+      <p class="fq-meta"></p>
+      <p class="fq-foot"><span></span><span>收藏于卷轴 · 随时再读</span></p>
+    </div>
+
+    <section class="section-head" style="padding-top:10px;">
+      <h2>随机读一首</h2>
+      <p>点一下按钮，随机呈现本站收录的一首名篇摘句，作为片刻的诗意停留。</p>
+    </section>
+    <div class="random-wrap">
+      <button id="randomPoemBtn" class="btn">随机读诗</button>
+      <div id="randomPoemBox" class="random-poem"></div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>唐诗宋词苑 · 学习交流用站点 · 诗词文本均引自公开传世典籍</p>
+  <p>组别：<span class="fill-blank">留在家</span>组　整理制作</p>
+</footer>
+
+<button class="to-top" aria-label="回到顶部">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
+/* =========================================================
+   Kamrul Islam All Rights Reserved
+   ========================================================= */
